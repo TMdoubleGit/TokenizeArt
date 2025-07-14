@@ -1,0 +1,27 @@
+{
+  "name": "tokenizeart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upload": "npx nft.storage store --token=609a3d1e.b65bee442e484129b8ba9f0f9f703e78 --file=assets/Tokenize42.png"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@vogsphere.42paris.fr:vogsphere/intra-uuid-ebb58a88-8d68-46dd-b194-474ed9c997f2-6667808-tmichel-"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.0.0",
+    "hardhat": "^2.25.0",
+    "nft.storage": "^7.2.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.5",
+    "dotenv": "^17.2.0",
+    "ethers": "^6.15.0"
+  }
+}

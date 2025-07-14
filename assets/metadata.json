@@ -1,0 +1,19 @@
+{
+  "name": "Tokenize42 #1",
+  "description": "Mon premier NFT sur la BNB Testnet, créé dans le cadre du projet TokenizeArt de 42Paris.",
+  "image": "ipfs://bafybeifni5625a6yw53k54psycb7qyrt7dehcxebyrzujcty6ojh4uvo6m",
+  "attributes": [
+    {
+      "trait_type": "Univers",
+      "value": "Gloryhammer"
+    },
+    {
+      "trait_type": "Numéro",
+      "value": "42"
+    },
+    {
+      "trait_type": "Édition",
+      "value": "Genesis"
+    }
+  ]
+}
