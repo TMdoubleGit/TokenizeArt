@@ -9,11 +9,14 @@ Il représente un **guerrier galactique brandissant une épée** gravée du nomb
 
 ## 🧬 Caractéristiques uniques
 
-- **Nom du NFT** : Tokenize42 #1
-- **Univers** : Galactic Knight / Gloryhammer
+- **Nom du NFT** : CosmicKnight42
+- **Artiste** : tmichel-
+- **Univers** : Gloryhammer
 - **Édition** : Genesis
 - **Stockage décentralisé** : image + metadata sur IPFS
 - **Propriété** : attribuée à l’adresse mintée via smart contract ERC-721
+- **Adresse du contrat** : 0xA093184Fe9c0fC6fC4037ba72E9Af35282906b45
+- **Network** : Ethereum (testnet Sepolia)
 
 ---
 
@@ -27,7 +30,7 @@ Il représente un **guerrier galactique brandissant une épée** gravée du nomb
 
 ## 🔐 NFT = Preuve d’authenticité
 
-Le NFT agit comme une **preuve cryptographique** de l’existence et de l’authenticité de l’œuvre numérique `Tokenize42`.
+Le NFT agit comme une **preuve cryptographique** de l’existence et de l’authenticité de l’œuvre numérique `CosmicKnight42`.
 
 Il pourra être visualisé par n’importe qui, mais **uniquement détenu** par une adresse unique à un instant donné.
 

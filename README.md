@@ -46,11 +46,11 @@ Le NFT est implémenté sous la forme d’un contrat compatible **ERC-721/BEP-72
 
 ## 🧬 Metadata (tokenURI)
 
-- CID : `bafkreihaphhdzdnpqsoy2nw7cbi4mfpfm4sdwvkkxv7fhgybgrnm4w3224`
+- CID : `bafkreie2j4zqm4lrt33gmt52twzmksni4vvqytmrkwix65qnpmv7g2jpba`
 - tokenURI :  
-  `ipfs://bafkreihaphhdzdnpqsoy2nw7cbi4mfpfm4sdwvkkxv7fhgybgrnm4w3224`
+  `ipfs://bafkreie2j4zqm4lrt33gmt52twzmksni4vvqytmrkwix65qnpmv7g2jpba`
 - Lien HTTP :  
-  [https://ipfs.io/ipfs/bafkreihaphhdzdnpqsoy2nw7cbi4mfpfm4sdwvkkxv7fhgybgrnm4w3224](https://ipfs.io/ipfs/bafkreihaphhdzdnpqsoy2nw7cbi4mfpfm4sdwvkkxv7fhgybgrnm4w3224)
+  [https://ipfs.io/ipfs/bafkreie2j4zqm4lrt33gmt52twzmksni4vvqytmrkwix65qnpmv7g2jpba](https://ipfs.io/ipfs/bafkreie2j4zqm4lrt33gmt52twzmksni4vvqytmrkwix65qnpmv7g2jpba)
 
 ---
 
@@ -87,17 +87,22 @@ Le NFT est implémenté sous la forme d’un contrat compatible **ERC-721/BEP-72
 npx hardhat compile
 ```
 
-### Deployer localement
-```bash
-    npx hardhat run scripts/deploy.js --network localhost
-```
-
 ### Lancer le noeud local
 ```bash
     npx hardhat node
 ```
 
+### Deployer sur Sepolia
+```bash
+    npx hardhat run scripts/deploy.js --network sepolia
+```
+
 ### Minter un NFT
 ```bash
     npx hardhat run scripts/mint.js --network localhost
+```
+
+### Afficher mon NFT
+```arduino
+https://ipfs.io/ipfs/bafybeifni5625a6yw53k54psycb7qyrt7dehcxebyrzujcty6ojh4uvo6m
 ```

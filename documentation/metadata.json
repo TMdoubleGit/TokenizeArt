@@ -1,0 +1,20 @@
+{
+  "name": "CosmicKnight42",
+  "description": "An epic digital creation inspired by the universe of Gloryhammer. This NFT features a cosmic warrior wielding a sword engraved with the number 42.",
+  "image": "ipfs://bafybeifni5625a6yw53k54psycb7qyrt7dehcxebyrzujcty6ojh4uvo6m",
+  "artist": "tmichel-",
+  "attributes": [
+    {
+      "trait_type": "Universe",
+      "value": "Gloryhammer"
+    },
+    {
+      "trait_type": "Symbol",
+      "value": "42"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Genesis"
+    }
+  ]
+}
