@@ -1,4 +1,4 @@
-# 🖼️ Tokenize42 - NFT Projet 42
+# 🖼️ TokenizeArt - NFT Project 42
 
 ## 🎯 Objectif
 
