@@ -10,8 +10,8 @@ Le NFT est implémenté sous la forme d’un contrat compatible **ERC-721/BEP-72
 
 ## 👤 Auteur
 
-- **Login 42** : `thomas` (à remplacer par ton vrai login 42)
-- **Nom du NFT** : `Tokenize42 #1`
+- **Login 42** : `tmichel-`
+- **Nom du NFT** : `CosmicKnight42`
 
 ---
 
@@ -54,13 +54,6 @@ Le NFT est implémenté sous la forme d’un contrat compatible **ERC-721/BEP-72
 
 ---
 
-## 🔐 Adresse du contrat (local)
-
-- Adresse : `0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9`
-- Réseau : Hardhat local (localhost)
-
----
-
 ## ✅ Fonctionnalités principales
 
 - ✅ Déploiement d’un contrat ERC-721 avec Hardhat
@@ -75,12 +68,16 @@ Le NFT est implémenté sous la forme d’un contrat compatible **ERC-721/BEP-72
 > Voir le dossier `/documentation/` pour :
 > - Image du NFT
 > - Code source `metadata.json`
-> - Captures du terminal (compile, deploy, mint)
 > - Aperçu IPFS dans navigateur
 
 ---
 
 ## 🧪 Commandes utiles
+
+### installer hardhat en local
+```bash
+npm install --save-dev hardhat --legacy-peer-deps
+```
 
 ### Compiler le contrat
 ```bash
@@ -97,12 +94,17 @@ npx hardhat compile
     npx hardhat run scripts/deploy.js --network sepolia
 ```
 
+### Trouver le NFT sur Etherscan
+```bash
+npx hardhat verify --network sepolia 0xA093184Fe9c0fC6fC4037ba72E9Af35282906b45
+```
+
 ### Minter un NFT
 ```bash
     npx hardhat run scripts/mint.js --network localhost
 ```
 
-### Afficher mon NFT
+### Afficher mon NFT dans le navigateur
 ```arduino
 https://ipfs.io/ipfs/bafybeifni5625a6yw53k54psycb7qyrt7dehcxebyrzujcty6ojh4uvo6m
 ```
